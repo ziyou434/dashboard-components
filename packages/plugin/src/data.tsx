@@ -39,6 +39,10 @@ export const PLUGIN_MAPPER_SOURCE: Record<string, Omit<PluginPage.PluginMapperIt
     category: 'Authentication',
     priority: 1
   },
+  'hmac-auth':{
+    category: 'Authentication',
+    priority: 1
+  },
   'basic-auth': {
     category: 'Authentication',
     priority: 3
